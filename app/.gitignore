@@ -1,0 +1,40 @@
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# --- IDE (VS Code & Eclipse) ---
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+bin/
+
+# --- Java & Compilazione ---
+*.class
+*.log
+*.jar
+*.war
+
+# --- GWT ---
+gwt-unitCache/
+www-test/
+.gwt/
+war/WEB-INF/deploy/
+war/WEB-INF/lib/
+*.nocache.js
+*.cache.gif
+*.gwt.rpc
+
+# --- Database (MapDB) ---
+*.db
+*.db.p
+*.db.t
+
+# --- Sistema Operativo ---
+Thumbs.db
+.DS_Store
