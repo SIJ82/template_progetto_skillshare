@@ -8,14 +8,14 @@ Progetto GWT + Maven con supporto al deploy via Docker.
 
 ## Prerequisiti
 
-Assicurarsi di avere installato **Java JDK 21+** e **Maven 3.8+**.
+Assicurarsi di avere installato **Java JDK 17+** e **Maven 3.8+**.
 
 ### Ubuntu / Debian
 
 ```sh
 # Installazione Java JDK 21
 sudo apt update
-sudo apt install -y openjdk-21-jdk
+sudo apt install -y openjdk-17-jdk
 
 # Verifica
 java -version
@@ -32,8 +32,8 @@ mvn -version
 #### Tramite powershell
 
 ```sh
-# Installazione Java JDK 21
-winget install EclipseAdoptium.Temurin.21.JDK
+# Installazione Java JDK 17
+winget install EclipseAdoptium.Temurin.17.JDK
 # Installazione Maven
 winget install Apache.Maven
 ```
@@ -48,7 +48,7 @@ mvn -version
 1. Scaricare e installare **Java JDK 21+** da [adoptium.net](https://adoptium.net/)
 2. Aggiungere `JAVA_HOME` alle variabili d'ambiente di sistema:
    - Variabile: `JAVA_HOME`
-   - Valore: percorso di installazione JDK (es. `C:\Program Files\Eclipse Adoptium\jdk-21`)
+   - Valore: percorso di installazione JDK (es. `C:\Program Files\Eclipse Adoptium\jdk-17`)
 3. Aggiungere `%JAVA_HOME%\bin` alla variabile `Path`
 4. Scaricare **Maven** da [maven.apache.org](https://maven.apache.org/download.cgi), estrarlo e aggiungere la cartella `bin` alla variabile `Path`
 5. Verificare l'installazione aprendo un terminale (cmd o PowerShell):
